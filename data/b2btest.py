@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 ###################################################################
-# 时间：2018年1月23号
+# 时间：2018年1月23号星期二
 # 版本：V_01
 # 作者：TestE
 # 测试用例内容：
@@ -55,7 +55,7 @@ driver.find_element_by_css_selector("body > form > div.ord-bill > ul > li:nth-ch
 time.sleep(3)
 driver.find_element_by_name("invoice_address").send_keys("973166414@qq.com")
 
-# 提交订单
+# 提交订单，其中使用link_test和使用partial_link_test提取元素不起作用
 # driver.find_element_by_partial_link_text("提交订单").click()
 driver.find_element_by_css_selector("body > form > div.ord-bill > ol > li:nth-child(6) > button").click()
 
