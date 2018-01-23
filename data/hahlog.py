@@ -30,7 +30,7 @@ driver.find_element_by_link_text("一键询价").click()
 
 # 进入购物车
 # driver.find_element_by_css_selector("body > header > div.headbottom > ul > li.car > a").click()
-# test_and_also_test_fdf_fds
+
 
 
 
